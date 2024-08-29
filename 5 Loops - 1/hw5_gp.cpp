@@ -1,0 +1,11 @@
+// WAP to print 3,12,48,... GP
+#include <iostream>
+using namespace std;
+int main(){
+    int c = 3;
+    int n;  cout<<"enter n :  ";    cin>>n;
+    for(int i = 1;i<=n;i++){
+        cout<<c<<" ";
+        c *=4;
+    }
+}
